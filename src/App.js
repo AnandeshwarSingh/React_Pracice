@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+// import First from './Componants/First';
+// import StateVar from './Componants/StateVar';
+// import FormBul from './Componants/FormBul';
+
+import A from './Componants/A';
+import B from './Componants/B';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <First/> */}
+      {/* <StateVar/> */}
+      {/* <FormBul/> */}
+      <A nameA="I am props from Componenet A"/>
+      <B nameB="I am props from Componenet B"/>
     </div>
   );
 }
