@@ -45,7 +45,6 @@ class Marks extends React.Component{
         console.log(prevProps);
         console.log(prevState);
         console.log(snapshot);
-
      };
 
 }

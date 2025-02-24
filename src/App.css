@@ -1,4 +1,9 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +40,21 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+nav ul{
+  width: 100%;
+  background-color: black;
+  list-style-type: non;
+  padding: 10px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul li NavLink{
+  color: white;
+  padding: 10px;
 }
